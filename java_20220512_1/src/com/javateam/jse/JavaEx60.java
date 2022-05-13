@@ -25,9 +25,9 @@ public class JavaEx60 {
 		list.addAll(Arrays.asList("HTML", "CSS", "React.js"));
 		list.add("C");
 		list.add("C");
-		System.out.println("리스트의 크기 : " + list.size());
-		System.out.println("첫번째 요소 : " + list.get(0));
-		System.out.println("마지막번째 요소 : " + list.get(list.size()-1));
+		System.out.println("由ъ뒪�듃�쓽 �겕湲� : " + list.size());
+		System.out.println("泥ル쾲吏� �슂�냼 : " + list.get(0));
+		System.out.println("留덉�留됰쾲吏� �슂�냼 : " + list.get(list.size()-1));
 		
 		System.out.println("-----------------------------");
 		
@@ -51,7 +51,7 @@ public class JavaEx60 {
 		
 		System.out.println("\n-----------------------------");
 		
-		// 람다 대(수) 프로그래밍((람다)함수형 프로그래밍)
+		// �엺�떎 ��(�닔) �봽濡쒓렇�옒諛�((�엺�떎)�븿�닔�삎 �봽濡쒓렇�옒諛�)
 		list.forEach(x->System.out.print(x + ", "));
 		
 		System.out.println("\n-----------------------------");
@@ -60,6 +60,6 @@ public class JavaEx60 {
 		
 		System.out.println("\n-----------------------------");
 		
-		
+		System.out.println("add line for test");
 	}
 }
